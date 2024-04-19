@@ -1,0 +1,10 @@
+@font-face {
+    font-family: GravityFalls;
+    src: url('gravitation_falls.otf') format('opentype'),
+         url('gravitation_falls.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Journal;
+    src: url('JOURNAL.TTF') format('truetype');
+}

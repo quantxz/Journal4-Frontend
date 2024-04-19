@@ -1,0 +1,56 @@
+main {
+    position: absolute;
+    width: 100%;
+    height: 140%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main > .tryNow > .flex {
+    position: absolute;
+    top: 70vh;
+    display: flex;
+    left: 5vw;
+    flex-direction: row;
+    width: 70vw;
+}
+
+main > .tryNow > .flex > .title {
+    position: absolute;
+    top: -8vw;
+    left: 15%;
+    font-size: 75px;
+}
+
+main > .tryNow > .flex > .result {
+    position: absolute;
+    background-color: #dbe4e1c9;
+    top: 3rem;
+    width: 90%;
+    height: 60vh;
+    overflow-y: scroll;
+    font-family: "Poppins", sans-serif !important;
+}
+
+main > .tryNow > .flex > .result > div {
+    font-family: "Poppins", sans-serif !important;
+}
+
+main > .tryNow > .flex > .inputRequire {
+    display: flex;
+    flex-direction: row;
+}
+
+main > .tryNow > .flex > .inputRequire p{
+    font-family: "Poppins", sans-serif !important;
+}
+
+main > .tryNow > .flex > .inputRequire input{
+    font-family: "Poppins", sans-serif !important;
+}
+
+main > .tryNow > .flex > .inputRequire button{
+    font-family: "Poppins", sans-serif !important;
+    cursor: pointer;
+}

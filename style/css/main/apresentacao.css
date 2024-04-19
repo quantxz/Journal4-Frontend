@@ -1,0 +1,28 @@
+main > .aprensentacao {
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+    width: 89.5vw;
+    height: 85vh;
+    font-size: 30px;
+    padding: 8px 4%;
+}
+
+main > .aprensentacao > .flex {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+main > .aprensentacao > .flex >.texts {
+    width: 40vw;
+    height: 35vh;
+}
+
+main > .aprensentacao > .flex > .bill-image {
+    position: relative;
+    justify-content: center;
+    left: 15vw;
+    width: 350px;
+    height: 500px;
+}
