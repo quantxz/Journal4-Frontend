@@ -22,7 +22,8 @@ main > .aprensentacao > .flex >.texts {
 main > .aprensentacao > .flex > .bill-image {
     position: relative;
     justify-content: center;
-    left: 15vw;
+    top: -4rem;
+    left: 25vw;
     width: 350px;
     height: 500px;
 }

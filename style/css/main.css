@@ -7,6 +7,12 @@
     padding: 0;
     box-sizing: 0;
 }
+
 body {
     overflow-x: hidden;
+}
+
+:root {
+    --defaultColor: #6E90E9;
+    --defaultColorTransparent: #D973E5;
 }
