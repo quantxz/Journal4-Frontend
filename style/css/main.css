@@ -16,3 +16,11 @@ body {
     --defaultColor: #6E90E9;
     --defaultColorTransparent: #D973E5;
 }
+
+.aprensentacao > .flex > .texts > .title,
+.aprensentacao > .flex > .texts > p,
+.tryNow > .flex > .title, 
+.tryNow > .flex > .title > .inputRequire, 
+.result {
+    visibility: hidden;
+}

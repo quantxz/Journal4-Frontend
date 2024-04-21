@@ -3,7 +3,9 @@ class ButtonFunctions {
     async requisitionRender() {
         const url = "https://gf-db-transfer-quantxz.vercel.app";
         const urlPath = document.querySelector(".urlPath").value;
-        resultDiv.textContent = ''
+        const resultDiv = document.querySelector(".result");
+
+        resultDiv.textContent = 'carregando'
         try {
             const result = await fetch(`${url}${urlPath}`);
 
@@ -11,8 +13,7 @@ class ButtonFunctions {
                 throw new Error('Erro ao realizar a requisição');
             }
             const data = await result.json();
-            resultDiv.textContent = '';
-
+            resultDiv.textContent = ''
 
             data.forEach(obj => {
                 const objDiv = document.createElement('div');
@@ -22,6 +23,7 @@ class ButtonFunctions {
 
         } catch (error) {
             console.error(error);
+            resultDiv.textContent = 'rota invalida'
         }
     }
 

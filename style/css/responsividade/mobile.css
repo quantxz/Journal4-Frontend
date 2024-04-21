@@ -18,7 +18,98 @@
         display: block;
         left: 80%;
     }
-    main {
-        display: none;
+    
+    main > section > .flex {
+    }
+    
+    main > .aprensentacao > .flex > .texts{
+        position: relative;
+        top: -5rem;
+        width: 90vw;
+        height: 90vh;
+    }
+    
+    main > section > .flex > .texts > .title {
+        width: 90vw;
+        height: 10vh;
+    }
+    
+    main > section > .flex > .texts > p {
+        width: 90vw;
+        height: 10vh;
+    }
+    
+    main > .aprensentacao > .flex > .bill-image{
+        position: absolute;
+        top: 15rem;
+        right: auto;
+        left: auto;
+    }
+
+    main > .tryNow {
+        display: flex;
+        position: relative;
+        top: 22rem;
+    }
+
+    main > .tryNow > .flex {
+        margin-bottom: 15rem;
+    }
+
+    main > .tryNow > .flex > .title {
+        position: absolute;
+        left: -0.3rem;
+        width: 90vw;
+    }
+
+    main > .tryNow > .flex > .inputRequire {
+        position: absolute;
+        top: 25vw;
+    }
+
+    main > .tryNow > .flex > .inputRequire > p {
+        font-size: 11px;
+        width: 35vw;
+    }
+
+    main > .tryNow > .flex > .inputRequire > .requireButton {
+        position: absolute;
+        top: 3.5rem;
+        width: 100%;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+
+    main > .tryNow > .flex > .inputRequire > .copyRequisition {
+        width: 12vw;
+    }
+
+    main > .tryNow > .flex > .result {
+        position: absolute;
+        top: 15rem;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 800px)  {
+
+    main > .tryNow > .flex > .title {
+        position: absolute;
+        left: -0.3rem;
+        width: 95vw;
+    }
+
+    main > .tryNow > .flex > .inputRequire {
+        position: absolute;
+        top: 35vw;
+    }
+
+    
+    main > .tryNow > .flex > .inputRequire > .requireButton {
+        position: absolute;
+        top: 3.9rem;
+        width: 100%;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
     }
 }
