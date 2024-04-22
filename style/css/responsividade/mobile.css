@@ -1,4 +1,9 @@
 @media screen and (max-width: 1020px)  {
+
+    body {
+        overflow-x: hidden;
+    }
+
     nav > .flex > .title {
         position: relative;
         left: -1rem;
@@ -19,7 +24,8 @@
         left: 80%;
     }
     
-    main > section > .flex {
+    .menu-mobile {
+        height: 100%;
     }
     
     main > .aprensentacao > .flex > .texts{
@@ -92,6 +98,13 @@
 }
 
 @media screen and (max-width: 800px)  {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu-mobile {
+        height: 100%;
+    }
 
     main > .tryNow > .flex > .title {
         position: absolute;
