@@ -41,3 +41,8 @@ nav > .flex > .options ul{
     left: 29%;
     font-size: 75px;
 }
+
+nav > .flex > .options ul li a{
+    text-decoration: none;
+    color: #000;
+}
